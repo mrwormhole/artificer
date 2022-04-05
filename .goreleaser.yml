@@ -1,6 +1,6 @@
 project_name: Artificer
 builds:
-  - skip: true
+  - skip: false
 
 changelog:
   sort: "asc"

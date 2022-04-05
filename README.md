@@ -38,7 +38,7 @@ The default folder structure it understands;
 ```
 
 You have to provide 2 arguments for it, which is -artifacts_path and -stacks_path. If not given,
-it will assume stacks path as ../../infrastructure/stacks and artifacts path as ../../artifacts.
+it will assume stacks path as ./infrastructure/stacks and artifacts path as ./artifacts.
 
  ```
  _______  _______ __________________ _______ _________ _______  _______  _______ 

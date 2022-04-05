@@ -15,8 +15,8 @@ import (
 )
 
 const (
-	defaultArtifactsPath = "../../artifacts" //nolint:misspell
-	defaultStacksPath    = "../../infrastructure/stacks"
+	defaultArtifactsPath = "./artifacts" //nolint:misspell
+	defaultStacksPath    = "./infrastructure/stacks"
 )
 
 var (
