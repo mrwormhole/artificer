@@ -1,6 +1,6 @@
 ### The Artificer
 
-Sometimes you know, you don't like shell scripts for such trivial tasks right? This tool is your recursive collector for lambda executables and archives.
+Sometimes you know, you don't like shell scripts for such trivial tasks right? This tool is your recursive collector for lambda executables and ZIP archives.
 It is 100% maintainable and readable. Open to PRs.
 
 Thought this may be useful to have this tool due to GoReleaser requiring Go entrypoints for each lambda.
