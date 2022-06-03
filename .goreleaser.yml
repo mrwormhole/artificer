@@ -3,14 +3,14 @@ project_name: Artificer
 builds:
   - env:
       - CGO_ENABLED=0
-  - goos:
+    goos:
       - linux
       - darwin
       - windows
-  - goarch:
+    goarch:
       - amd64
       - arm64
-  - ignore:
+    ignore:
       - goos: windows
         goarch: arm64
 
