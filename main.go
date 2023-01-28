@@ -28,7 +28,7 @@ func main() {
 	artifactsPathFlag := flag.String("artifacts_path", defaultArtifactsPath, //nolint:misspell
 		"artifacts path is the equivalent of dists directory where each lambda name folder has a Go binary and a zip/rar/tar") //nolint:misspell
 	stacksPathFlag := flag.String("stacks_path", defaultStacksPath,
-		"stacks path is the XIATECH integrations folder where each stack consists of a lambda folder that has Go Lambda entrypoint")
+		"stacks path is the folder where each stack consists of a lambda folder that has binary entrypoint(main.go)")
 	flag.Parse()
 
 	artifactsPath, stacksPath = *artifactsPathFlag, *stacksPathFlag
